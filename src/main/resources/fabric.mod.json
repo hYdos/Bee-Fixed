@@ -3,19 +3,22 @@
   "id": "beefixed",
   "version": "${version}",
 
-  "name": "I want home",
-  "description": "This mod adds waypoints & waystones to the game.",
+  "name": "Bee Fixed",
+  "description": "Fixed bees and other entities",
   "authors": [
     "hydos"
   ],
 
-  "license": "LGPL V3",
-  "icon": "assets/beeFixed/icon.png",
+  "license": "LGPLV3",
+  "icon": "assets/beefixed/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
       "io.github.hydos.beefixed.BeeFixed"
+    ],
+    "client": [
+      "io.github.hydos.beefixed.BeeFixedClient"
     ]
   },
   "accessWidener" : "beeFixed.aw",

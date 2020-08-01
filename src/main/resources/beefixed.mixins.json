@@ -4,6 +4,7 @@
   "package": "io.github.hydos.beefixed.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "HoneyBottleItemMixin"
   ],
   "client": [
     "BeeMixin"
